@@ -1,0 +1,131 @@
+ul{
+    list-style-type: none;
+    background-color: rgb(198, 78, 14);
+    padding: 5px 0px 10px 0px;
+}
+
+li{
+    padding: 10px;
+    display: inline;
+    font-family: verdana;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 246, 66);
+    margin-left: 15px;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+nav{
+    margin-top: -16px;
+}
+
+h1{
+    font-family: Impact;
+    font-weight: 100;
+    color:rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(59, 78, 90);
+    font-family: 'Courier New';
+    font-weight: 900;
+}
+
+h3{
+    color: rgb(72, 72, 92);
+    font-family: Impact;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.fuenteParrafo{
+    font-family: arial;
+    text-align: justify;
+}
+
+.cabecera{
+    background-color: rgb(67, 68, 73);
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 0px;
+}
+
+.contenedor{
+    display: flex;
+    background-color: rgb(226, 247, 247);
+    margin-top: -20px;
+}
+
+.laterales{
+    flex-direction: row;
+}
+
+.cineDer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 5px;
+    margin: 50px 10px 0px 10px;
+    width: 50%;
+}
+
+.cineIzq{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px 0px 20px;
+    margin: 0px 10px;
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.imagenParrafo{
+    width: 90%;
+    height: 500px;
+    margin: 0px 10px 5px -15px;
+}
+
+.tabla1{
+    border-color:rgb(59, 78, 90);
+    border-style: outset;
+    border-radius: 10px 0px;
+    border-width: 3px;
+    color:rgb(59, 78, 90);
+    border-spacing: 10px;
+    text-align: justify;
+}
+
+.tabla2{
+    margin-top: 10px;
+    border-color:rgb(59, 78, 90);
+    border-style: dotted;
+    width: 100%;
+    text-align: justify;
+}
+
+th{
+    color:rgb(255, 255, 255);
+    padding: 5px 10px;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: rgb(72, 72, 92);
+}
+
+td{
+    padding: 5px 10px;
+}
+.tr1{
+    background-color: rgb(191, 211, 226);
+}
+
+.tr2{
+    background-color: rgb(169, 177, 197);
+}
